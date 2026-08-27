@@ -1,0 +1,23 @@
+# Ignore large datasets (>100MB limit on GitHub)
+Amazon_Unlocked_Mobile.csv
+*.csv
+!sarcasm_outputs/model_comparison.csv
+
+# Ignore large model checkpoint files (>100MB limit on GitHub)
+*.pt
+*.bin
+*.pth
+*.h5
+*.ckpt
+sarcasm_outputs/best_roberta.pt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cached files
+__pycache__/
+*.pyc
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

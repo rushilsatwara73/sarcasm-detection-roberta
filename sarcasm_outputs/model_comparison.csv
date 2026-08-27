@@ -1,0 +1,3 @@
+Model,Accuracy,Precision,Recall,Macro F1,ROC-AUC
+TF-IDF + Logistic Regression,0.7713,0.774,0.7735,0.7713,0.8581
+RoBERTa,0.8106,0.8115,0.8087,0.8094,0.8951
